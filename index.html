@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本の歴史 — Japanese History Textbook</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Shippori+Mincho:wght@400;700&family=DM+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="reading-progress" id="reading-progress"></div>
+
+<!-- HOME PAGE -->
+<div class="page active" id="home">
+  <div class="home-hero">
+    <div class="home-hero-bg"></div>
+    <div class="home-utils">
+      <button class="util-btn" onclick="openGlossary()">Glossary</button>
+      <button class="util-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
+    </div>
+    <div class="hero-anim d1 eyebrow">Residency Examination Preparation</div>
+    <h1 class="hero-anim d2 home-title">Japanese History<br><em>Online Textbook</em></h1>
+    <p class="hero-anim d3 home-sub">日本の歴史 — 完全版テキスト</p>
+    <p class="hero-anim d4 home-desc">Ten chapters covering every major era from prehistoric Japan to the Reiwa period — with textbook-depth content, key terms, chronological sidebars, and a quiz at the end of each chapter.</p>
+    <button class="hero-anim d5 home-cta" onclick="openChapter(0)">Begin with Chapter 1 →</button>
+    <div class="home-scroll-hint">Or select a chapter below</div>
+  </div>
+  <div class="home-chapters">
+    <p class="home-chapters-label">All Chapters</p>
+    <h2>Select a <em>chapter to study</em></h2>
+    <div class="chapter-cards" id="chapter-cards"></div>
+  </div>
+</div>
+
+<!-- READER PAGE -->
+<div class="page" id="reader">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <button class="sidebar-home-btn" onclick="goHome()">← Home</button>
+      <div class="sidebar-brand-name"><span>日</span> Japanese History</div>
+    </div>
+    <nav class="sidebar-chapters" id="sidebar-chapters"></nav>
+    <div class="sidebar-footer">
+      <div id="progress-text">0 of 10 complete</div>
+      <div class="sidebar-overall"><div class="sidebar-overall-fill" id="overall-fill"></div></div>
+      <div class="sidebar-footer-btns">
+        <button class="sidebar-util-btn" onclick="openGlossary()">Glossary</button>
+        <button class="sidebar-util-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
+      </div>
+    </div>
+  </aside>
+  <main class="reader-main">
+    <div class="reader-topbar">
+      <button class="topbar-menu-btn" onclick="toggleSidebar()" aria-label="Open chapter list">&#9776;</button>
+      <div class="breadcrumb">日本の歴史 › <span id="topbar-title">Chapter</span></div>
+      <div class="topbar-nav">
+        <button class="topbar-btn" id="btn-prev" onclick="prevChapter()">← Prev</button>
+        <button class="topbar-btn" id="btn-next" onclick="nextChapter()">Next →</button>
+      </div>
+    </div>
+    <div id="chapter-render"></div>
+  </main>
+  <div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
+</div>
+
+<!-- GLOSSARY PAGE -->
+<div class="page" id="glossary">
+  <div class="reader-topbar">
+    <div class="breadcrumb">日本の歴史 › <span>Glossary</span></div>
+    <div class="topbar-nav">
+      <button class="topbar-btn" onclick="goHome()">← Home</button>
+      <button class="topbar-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
+    </div>
+  </div>
+  <div class="glossary-content">
+    <div class="glossary-header">
+      <h1 class="glossary-title">Glossary</h1>
+      <p class="glossary-sub">All key terms from every chapter</p>
+      <input type="search" class="glossary-search" id="glossary-search"
+             placeholder="Search terms and definitions…" oninput="filterGlossary()" autocomplete="off">
+    </div>
+    <div id="glossary-results"></div>
+  </div>
+</div>
+
+<script src="engine.js"></script>
+</body>
+</html>

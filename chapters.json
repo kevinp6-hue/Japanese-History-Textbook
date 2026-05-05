@@ -1,0 +1,1535 @@
+﻿[
+  {
+    "id": "jomonYayoi",
+    "num": "01",
+    "jp": "縄文・弥生",
+    "name": "Jōmon & Yayoi Periods",
+    "years": "c. 14,000 – 300 BCE",
+    "intro": "Japan's earliest inhabitants left behind remarkable pottery, sophisticated hunter-gatherer societies, and the agricultural foundations upon which all later civilisations would be built. The transition from Jōmon to Yayoi is one of the most consequential transformations in Japanese prehistory.",
+    "sections": [
+      {
+        "h2": "The Jōmon World",
+        "dates": [
+          [
+            "c.14,000 BCE",
+            "Jōmon period begins"
+          ],
+          [
+            "c.5,000 BCE",
+            "Population peak; sophisticated settlements"
+          ],
+          [
+            "c.300 BCE",
+            "Yayoi culture displaces Jōmon"
+          ]
+        ],
+        "body": "<p>The Jōmon period (c. 14,000–300 BCE) takes its name from the characteristic <em>cord-marked</em> (jōmon) patterns pressed into clay pottery — some of the oldest fired ceramics in the world. The people who made them were semi-sedentary hunter-gatherers who built pit-house villages, conducted long-distance trade in obsidian and jade, and developed complex ritual practices centred on clay figurines called <em>dogū</em>.</p><p>Jōmon communities were remarkably adaptable, exploiting diverse environments from Hokkaidō to Kyushu. Marine resources were central to coastal groups, evidenced by enormous shell mounds (<em>kaizuka</em>). Population estimates for the Jōmon peak (c. 5,000 BCE) range up to 260,000 — significant for a pre-agricultural society.</p><h3>Society and ritual</h3><p>Jōmon society was organised around small, relatively egalitarian bands, though status differences appear in differential burial goods. Dogū figurines, often female in form, were frequently broken deliberately — suggesting ritual use. The Sannai-Maruyama site in Aomori (c. 5,900–4,200 BCE) revealed a large planned settlement with evidence of chestnut cultivation, pushing back evidence for intentional plant management.</p>"
+      },
+      {
+        "h2": "The Yayoi Transition",
+        "dates": [
+          [
+            "c.400 BCE",
+            "Wet-rice farming spreads from N. Kyushu"
+          ],
+          [
+            "c.200 BCE",
+            "Bronze and iron in use"
+          ],
+          [
+            "57 CE",
+            "Han dynasty records Japan ('Na' kingdom)"
+          ],
+          [
+            "239 CE",
+            "Queen Himiko sends envoy to Wei China"
+          ]
+        ],
+        "body": "<p>Around 300–400 BCE, wet-rice agriculture arrived in northern Kyushu, brought by migrants from the Korean peninsula. The incoming groups brought bronze mirrors, bells (<em>dōtaku</em>), and iron tools. The Yayoi period (c. 300 BCE – 300 CE) saw rapid population growth, permanent field systems, surplus production, and social stratification.</p><p>Chinese sources, particularly the <em>Gishi Wajinden</em> (Wei Zhi), provide the first written records of Japanese society. They describe a polity called Yamatai ruled by a shaman-queen named <strong>Himiko</strong> (c. 175–248 CE). Himiko never married; she communicated divine will while her brother handled political affairs. The location of Yamatai — in northern Kyushu or the Kinai region — remains one of Japanese archaeology's great unsolved debates.</p>"
+      },
+      {
+        "h2": "Legacy and Exam Significance",
+        "body": "<p>The Jōmon-to-Yayoi transition models a recurring theme in Japanese history: the absorption of continental influences without wholesale replacement of existing culture. Jōmon spiritual traditions persisted into Shinto; Yayoi agricultural organisation provided the template for later state-building.</p><div class='callout'><strong>Exam angle:</strong> Be prepared to compare the Jōmon-Yayoi transition with later episodes of cultural borrowing (e.g., Tang-influenced Nara reforms). The pattern of selective, transformative adoption is a through-line in Japanese history.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Jōmon",
+        "'Cord-marked'; Japan's hunter-gatherer era; world's oldest pottery"
+      ],
+      [
+        "Yayoi",
+        "Period of agricultural transition; named for Tokyo neighbourhood where pottery was found"
+      ],
+      [
+        "Dogū",
+        "Clay figurines of the Jōmon period; ritual function debated"
+      ],
+      [
+        "Dōtaku",
+        "Bronze bells of the Yayoi period; ritual use; found in western Japan"
+      ],
+      [
+        "Yamatai",
+        "Powerful polity ruled by Queen Himiko; documented in Chinese chronicles"
+      ],
+      [
+        "Himiko",
+        "Shaman-queen of Yamatai; first named individual in Japanese history"
+      ],
+      [
+        "Gishi Wajinden",
+        "Section of the Chinese Wei Zhi; first written account of Japan"
+      ],
+      [
+        "Kaizuka",
+        "Shell mounds; archaeological archives of coastal Jōmon communities"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What is the primary characteristic that gives the Jōmon period its name?",
+        "opts": [
+          "Rice cultivation",
+          "Cord-marked pottery",
+          "Bronze mirrors",
+          "Burial mounds"
+        ],
+        "ans": 1,
+        "exp": "Jōmon (縄文) means 'cord-marked' — referring to the distinctive patterns pressed into clay pottery, among the world's oldest fired ceramics."
+      },
+      {
+        "q": "Which Chinese text provides the earliest written description of Japanese society, including Queen Himiko?",
+        "opts": [
+          "The Kojiki",
+          "The Nihon Shoki",
+          "The Wei Zhi (Gishi Wajinden)",
+          "The Taihō Code"
+        ],
+        "ans": 2,
+        "exp": "The Gishi Wajinden, part of the Wei Zhi (Chronicles of Wei, c. 297 CE), describes the polity of Yamatai and its ruler Himiko — the first written account of Japan."
+      },
+      {
+        "q": "The Yayoi culture primarily arrived in Japan from:",
+        "opts": [
+          "Southern China by sea",
+          "The Korean peninsula",
+          "The Ryukyu islands",
+          "Northeastern Siberia"
+        ],
+        "ans": 1,
+        "exp": "Yayoi culture arrived principally from the Korean peninsula, bringing wet-rice agriculture, bronze, and iron — confirmed by archaeological distribution patterns and ancient DNA studies."
+      },
+      {
+        "q": "What does modern ancient-DNA research tell us about the relationship between Jōmon and Yayoi peoples?",
+        "opts": [
+          "Jōmon people were entirely replaced",
+          "Yayoi people absorbed Jōmon without mixing",
+          "The two populations mixed genetically",
+          "Jōmon and Yayoi lived in complete separation"
+        ],
+        "ans": 2,
+        "exp": "Genetic studies confirm admixture between incoming Yayoi migrants and existing Jōmon populations — a blending that shaped the genetic profile of modern Japanese people."
+      },
+      {
+        "q": "Which of the following best describes Jōmon social organisation?",
+        "opts": [
+          "Rigidly stratified kingdoms",
+          "Semi-sedentary hunter-gatherer bands with trade networks",
+          "Fully agricultural village communes",
+          "Nomadic pastoral clans"
+        ],
+        "ans": 1,
+        "exp": "Jōmon communities were semi-sedentary hunter-gatherers who built pit-house villages and conducted long-distance trade in obsidian and jade, with some evidence of incipient cultivation at later sites."
+      }
+    ],
+    "sources": [
+      { "text": "Habu, Junko. Ancient Jōmon of Japan. Cambridge University Press, 2004." },
+      { "text": "Barnes, Gina L. State Formation in Japan: Emergence of a 4th-century Ruling Elite. Routledge, 2007." },
+      { "text": "Mizoguchi, Koji. The Archaeology of Japan: From the Earliest Rice Farming Villages to the Rise of the State. Cambridge University Press, 2013." },
+      { "text": "Kaner, Simon (ed.). The Power of Dogu: Ceramic Figures from Ancient Japan. British Museum Press, 2009." },
+      { "text": "Gishi Wajinden (Wei Zhi, section on Wa) — primary source, c. 297 CE. Trans. in Tsunoda, Ryusaku. Japan in the Chinese Dynastic Histories. Perkins Asiatic Monographs, 1951." }
+    ]
+  },
+  {
+    "id": "kofunYamato",
+    "num": "02",
+    "jp": "古墳・大和",
+    "name": "Kofun Era & Yamato State",
+    "years": "c. 300 – 710 CE",
+    "intro": "From the burial mounds of powerful chiefs to the adoption of Buddhism and Chinese writing, the Kofun era represents Japan's emergence as a recognisable state — one that consciously shaped itself by importing and transforming continental culture.",
+    "sections": [
+      {
+        "h2": "The Kofun Phenomenon",
+        "dates": [
+          [
+            "c.250 CE",
+            "First keyhole tombs appear"
+          ],
+          [
+            "c.375 CE",
+            "Daisen Kofun constructed"
+          ],
+          [
+            "552 CE",
+            "Buddhism introduced from Baekje"
+          ],
+          [
+            "587 CE",
+            "Soga defeats Mononobe; Buddhism secured"
+          ]
+        ],
+        "body": "<p>The Kofun period (c. 250–710 CE) takes its name from the large burial mounds (<em>kofun</em>) erected for powerful regional chiefs. The most iconic form is the <em>zenpōkōenfun</em> — a keyhole-shaped mound combining a square front with a circular rear. The Daisen Kofun in Sakai City, attributed to Emperor Nintoku, is one of the largest burial structures on earth by surface area.</p><p>Kofun were filled with grave goods signalling status: bronze mirrors, iron weapons and armour, jewellery of curved jade beads (<em>magatama</em>), and elaborate gilt-bronze horse trappings. Clay <em>haniwa</em> figurines were arranged around the mound's exterior. Over time, kofun construction spread from the Kinai region across most of Honshū, tracing the expansion of Yamato political influence.</p>"
+      },
+      {
+        "h2": "Buddhism and Prince Shōtoku",
+        "dates": [
+          [
+            "604 CE",
+            "Shōtoku's 17-Article Constitution"
+          ],
+          [
+            "618 CE",
+            "Japan sends students to Tang China"
+          ],
+          [
+            "630 CE",
+            "First kentōshi embassy to Tang"
+          ],
+          [
+            "645 CE",
+            "Taika Reform proclaimed"
+          ]
+        ],
+        "body": "<p>Buddhism arrived officially in 552 CE as a gift from the Baekje kingdom. Its reception ignited Japan's first documented religious-political conflict. The immigrant <strong>Soga clan</strong> clashed with the nativist <strong>Mononobe clan</strong>. The Soga victory (587 CE) determined that Buddhism would become the religion of state.</p><p><strong>Prince Shōtoku</strong> (574–622), acting as regent for Empress Suiko, institutionalised Buddhism and created the framework for a centralised state. His <em>17-Article Constitution</em> (604 CE) promoted Buddhist principles, Confucian hierarchy, and loyalty to the sovereign. Shōtoku also dispatched embassies to the Sui court on equal terms, famously addressing the Sui emperor as the Son of Heaven 'in the land where the sun rises' — a diplomatic assertion of parity that reportedly infuriated the Chinese court.</p><div class='callout'><strong>Taika Reform (645 CE):</strong> Following a coup eliminating the Soga clan, reformers proclaimed the Taika ('Great Change') Reform, announcing nationalisation of land and establishment of a Chinese-style administrative system. The reforms were only partially implemented, but they set the direction for the ritsuryō system.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Kofun",
+        "Burial mound; keyhole-shaped tombs of Yamato-era chiefs"
+      ],
+      [
+        "Haniwa",
+        "Hollow clay figures placed around kofun"
+      ],
+      [
+        "Magatama",
+        "Curved comma-shaped jewels; one of Japan's three imperial regalia"
+      ],
+      [
+        "Soga clan",
+        "Powerful immigrant clan who championed Buddhism against the Mononobe"
+      ],
+      [
+        "Prince Shōtoku",
+        "Regent for Empress Suiko; Buddhism patron; 17-Article Constitution"
+      ],
+      [
+        "Taika Reform",
+        "645 CE proclamation; attempted Tang-style centralisation"
+      ],
+      [
+        "Kentōshi",
+        "Embassies sent to Tang China; conduit for institutional and cultural borrowing"
+      ],
+      [
+        "Zenpōkōenfun",
+        "Keyhole-shaped burial mound; signature form of Kofun-period elite tombs"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The Daisen Kofun, one of the world's largest burial structures, is associated with which emperor?",
+        "opts": [
+          "Emperor Jimmu",
+          "Emperor Nintoku",
+          "Emperor Shōmu",
+          "Emperor Kanmu"
+        ],
+        "ans": 1,
+        "exp": "The Daisen Kofun in Sakai City is attributed to Emperor Nintoku (early 5th century). It covers a surface area comparable to the Great Pyramid of Giza."
+      },
+      {
+        "q": "Which clan's defeat in 587 CE determined that Buddhism would be embraced by the Yamato state?",
+        "opts": [
+          "The Fujiwara clan",
+          "The Minamoto clan",
+          "The Mononobe clan",
+          "The Taira clan"
+        ],
+        "ans": 2,
+        "exp": "The Mononobe clan, who opposed Buddhism in favour of native kami worship, were defeated by the Soga clan — securing Buddhism's place as Japan's state religion."
+      },
+      {
+        "q": "Prince Shōtoku's 17-Article Constitution (604 CE) was primarily:",
+        "opts": [
+          "A criminal law code",
+          "A moral guide for officials promoting Buddhist and Confucian values",
+          "A military code for samurai",
+          "A trade agreement with China"
+        ],
+        "ans": 1,
+        "exp": "The 17-Article Constitution was a moral and philosophical document, not a legal code. It emphasised harmony, Buddhist ideals, and loyalty to the sovereign, drawing on both Buddhist and Confucian thought."
+      },
+      {
+        "q": "The Taika Reform of 645 CE was significant because it:",
+        "opts": [
+          "Ended Buddhism in Japan",
+          "Introduced rice cultivation",
+          "Attempted to nationalise land and create a Chinese-style bureaucracy",
+          "Established the first shogunate"
+        ],
+        "ans": 2,
+        "exp": "The Taika Reform proclaimed nationalisation of all land and establishment of a centralised bureaucratic state on the Tang model. Implementation was uneven but it set the direction for the ritsuryō system."
+      },
+      {
+        "q": "Japan's diplomatic correspondence with the Sui dynasty was remarkable for:",
+        "opts": [
+          "Acknowledging China's cultural superiority",
+          "Requesting military aid",
+          "Addressing the Chinese emperor as an equal rather than a superior",
+          "Refusing all contact with China"
+        ],
+        "ans": 2,
+        "exp": "Shōtoku's famous letter began 'From the Son of Heaven in the land where the sun rises to the Son of Heaven in the land where the sun sets' — a claim of diplomatic equality that reportedly angered the Sui court."
+      }
+    ]
+  },
+  {
+    "id": "nara",
+    "num": "03",
+    "jp": "奈良",
+    "name": "Nara Period",
+    "years": "710 – 794",
+    "intro": "Japan's first permanent capital gave the Nara period its name, but the era's true significance lies in what was built around it: a Chinese-style legal state, a national Buddhist infrastructure, and the foundational texts of Japanese literary and historical tradition.",
+    "sections": [
+      {
+        "h2": "The Ritsuryō State",
+        "dates": [
+          [
+            "701 CE",
+            "Taihō Code enacted"
+          ],
+          [
+            "710 CE",
+            "Heijō-kyō (Nara) established"
+          ],
+          [
+            "735–737",
+            "Smallpox epidemic; ~25–35% death toll"
+          ],
+          [
+            "743 CE",
+            "Permanent private ownership of reclaimed land permitted"
+          ]
+        ],
+        "body": "<p>The Nara period (710–794) represents the fullest expression of the <em>ritsuryō</em> state — a legal and administrative system modelled directly on Tang China. The <strong>Taihō Code</strong> of 701 CE divided law into <em>ritsu</em> (criminal law) and <em>ryō</em> (administrative law). It established a central bureaucracy headed by the Grand Council of State (<em>Dajō-kan</em>), divided the country into provinces and districts, and created an elaborate court-rank system.</p><p>The <em>handen shūju-hō</em> (land allotment system) assigned rice paddies to commoners every six years based on census records. The system proved difficult to maintain: population growth, natural disasters, and evasion of census registration steadily eroded the state's tax base. The Three-Generation Law of 723 (extended to permanent ownership in 743) allowed private retention of reclaimed land — the first crack in the nationalised land ideal, eventually leading to the <em>shōen</em> (private estates) that would define the medieval period.</p>"
+      },
+      {
+        "h2": "Buddhism as State Religion",
+        "dates": [
+          [
+            "741 CE",
+            "Shōmu orders kokubunji in all provinces"
+          ],
+          [
+            "743 CE",
+            "Great Buddha construction ordered"
+          ],
+          [
+            "752 CE",
+            "Tōdai-ji Great Buddha dedicated"
+          ],
+          [
+            "754 CE",
+            "Ganjin arrives; ordination platform established"
+          ]
+        ],
+        "body": "<p><strong>Emperor Shōmu</strong> (r. 724–749) elevated state Buddhism to its apogee. Faced with a devastating smallpox epidemic, crop failures, and political instability, Shōmu turned to Buddhism for state protection. In 741 CE he ordered <em>kokubunji</em> (provincial temples) built in every province. The centrepiece was the <strong>Tōdai-ji Great Buddha</strong> — a colossal bronze image of Rushana (Vairocana), approximately 15 metres tall, dedicated in 752.</p><p>The monk <strong>Dōkyō</strong> rose to extraordinary influence under Empress Shōtoku (r. 764–770), receiving the title Hōō (Dharma King) and reportedly coming close to being named emperor. The Usa Hachiman oracle declared no one outside the imperial line should ascend the throne. Dōkyō was exiled after Shōtoku's death — and no woman ruled as empress regnant again for over a millennium.</p>"
+      },
+      {
+        "h2": "Literature and Cultural Foundations",
+        "dates": [
+          [
+            "712 CE",
+            "Kojiki compiled"
+          ],
+          [
+            "720 CE",
+            "Nihon Shoki compiled"
+          ],
+          [
+            "c.759 CE",
+            "Man'yōshū compiled"
+          ]
+        ],
+        "body": "<p>The <strong>Kojiki</strong> (712, 'Record of Ancient Matters') records the age of the gods through the reign of Empress Suiko, written partly in man'yōgana (Chinese characters used phonetically). The <strong>Nihon Shoki</strong> (720) covers similar ground in formal classical Chinese — Japan's face to the continent. The <strong>Man'yōshū</strong> (c. 759, 'Collection of Ten Thousand Leaves') contains over 4,500 poems by more than 450 poets — emperors, aristocrats, frontier soldiers, and anonymous farmers.</p><div class='callout'><strong>Why Nara ended:</strong> Three converging crises forced the move: (1) political danger of powerful Buddhist institutions after the Dōkyō affair; (2) fiscal collapse of the handen land system; (3) Emperor Kanmu's determination to break from an exhausted political order. The court moved to Nagaoka-kyō (784), then Heian-kyō (Kyoto) in 794.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Ritsuryō",
+        "Legal-administrative system modelled on Tang China; criminal + administrative codes"
+      ],
+      [
+        "Handen shūju-hō",
+        "Land allotment system; rice paddies assigned every 6 years by census"
+      ],
+      [
+        "Kokubunji",
+        "Provincial temples ordered by Shōmu in every province (741)"
+      ],
+      [
+        "Tōdai-ji",
+        "Head temple in Nara housing the Great Buddha (Rushana Daibutsu)"
+      ],
+      [
+        "Kojiki",
+        "712; Japan's oldest chronicle; mythology and imperial legitimation"
+      ],
+      [
+        "Nihon Shoki",
+        "720; Japan's second chronicle; formal Chinese; diplomatic history"
+      ],
+      [
+        "Man'yōshū",
+        "c.759; oldest poetry anthology; 4,500+ poems; wide social range"
+      ],
+      [
+        "Dōkyō",
+        "Monk who rose to political power under Empress Shōtoku; exiled after her death"
+      ],
+      [
+        "Man'yōgana",
+        "Phonetic use of Chinese characters to write Japanese; precursor to kana"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The Taihō Code (701) divided law into ritsu and ryō, meaning:",
+        "opts": [
+          "Imperial law and provincial law",
+          "Criminal law and administrative law",
+          "Buddhist law and Shinto law",
+          "Military law and civil law"
+        ],
+        "ans": 1,
+        "exp": "Ritsu (律) covered criminal law; ryō (令) covered administrative law. Together they formed the ritsuryō system — Japan's first comprehensive legal code based on Tang Chinese models."
+      },
+      {
+        "q": "Emperor Shōmu's construction of the Tōdai-ji Great Buddha was motivated primarily by:",
+        "opts": [
+          "Desire to impress Chinese envoys",
+          "National protection during epidemic and political crises",
+          "A personal vow after military victory",
+          "Pressure from Buddhist monks at court"
+        ],
+        "ans": 1,
+        "exp": "Shōmu commissioned the Rushana Daibutsu against a backdrop of devastating smallpox epidemics (735–37), crop failures, and political instability — framing it as an act of state protection through Buddhist merit."
+      },
+      {
+        "q": "What distinguishes the Kojiki (712) from the Nihon Shoki (720)?",
+        "opts": [
+          "The Kojiki was written in kana; Nihon Shoki in Chinese",
+          "The Kojiki covers earlier mythology only",
+          "The Kojiki used man'yōgana for Japanese sounds; Nihon Shoki was in formal Chinese for continental audiences",
+          "The Kojiki was destroyed; only Nihon Shoki survives"
+        ],
+        "ans": 2,
+        "exp": "The Kojiki (712) used a mixed script including man'yōgana for domestic audiences, focusing on mythological legitimation. The Nihon Shoki (720) was written in formal classical Chinese, intended as Japan's official history for continental audiences."
+      },
+      {
+        "q": "The Dōkyō affair (760s–770s) had which lasting consequence?",
+        "opts": [
+          "Buddhism was banned from the imperial court",
+          "No woman ruled as empress regnant again for over a millennium",
+          "The capital was moved to Osaka",
+          "The ritsuryō system was abolished"
+        ],
+        "ans": 1,
+        "exp": "The near-usurpation of the throne by the monk Dōkyō under Empress Shōtoku alarmed the court so severely that no empress regnant would rule again until the modern era."
+      },
+      {
+        "q": "The handen shūju-hō land allotment system broke down primarily because:",
+        "opts": [
+          "Foreign invasion destroyed census records",
+          "Population growth, census evasion, and new laws allowing private land ownership eroded the tax base",
+          "Emperor Kanmu abolished it when he moved to Kyoto",
+          "Buddhist temples seized all agricultural land"
+        ],
+        "ans": 1,
+        "exp": "The handen system required regular census records and consistent rice yields. Population growth, peasant evasion, and the 743 law permitting permanent ownership of reclaimed land all contributed to its collapse — laying groundwork for the shōen estate system."
+      }
+    ]
+  },
+  {
+    "id": "heian",
+    "num": "04",
+    "jp": "平安",
+    "name": "Heian Period",
+    "years": "794 – 1185",
+    "intro": "The longest imperial era in Japanese history was also its most culturally brilliant — and its most politically paradoxical. While aristocrats in Kyoto refined poetry and literature to extraordinary levels, power quietly bled away toward provincial warriors who would soon remake Japan entirely.",
+    "sections": [
+      {
+        "h2": "Fujiwara Dominance and the Insei System",
+        "dates": [
+          [
+            "794 CE",
+            "Capital established at Heian-kyō (Kyoto)"
+          ],
+          [
+            "858 CE",
+            "First Fujiwara regent (sesshō)"
+          ],
+          [
+            "1016 CE",
+            "Fujiwara Michinaga at peak power"
+          ],
+          [
+            "1086 CE",
+            "Emperor Shirakawa begins insei rule"
+          ]
+        ],
+        "body": "<p>Emperor Kanmu moved the capital to <strong>Heian-kyō</strong> (present-day Kyoto) in 794, partly to escape the entangled influence of Nara's Buddhist temples. The dominant political story of the Heian period is the rise of the <strong>Fujiwara clan</strong> through an elegant mechanism: marrying their daughters into the imperial family and serving as <em>sesshō</em> (regent for a child emperor) or <em>kampaku</em> (regent for an adult emperor). <strong>Fujiwara no Michinaga</strong> (966–1027) represented the peak — three of his daughters became empress consorts.</p><p>By the late 11th century, emperors fought back through the <em>insei</em> system: retiring from the throne (escaping Fujiwara regency) while continuing to exercise real power as Retired Emperor (<em>In</em>). Emperor Shirakawa (retired 1086) pioneered this approach, governing for decades after abdication.</p>"
+      },
+      {
+        "h2": "Heian Court Culture",
+        "dates": [
+          [
+            "c.905 CE",
+            "Kokinshū anthology compiled"
+          ],
+          [
+            "c.990s CE",
+            "Sei Shōnagon writes The Pillow Book"
+          ],
+          [
+            "c.1008 CE",
+            "The Tale of Genji completed"
+          ]
+        ],
+        "body": "<p>The Heian court produced one of the world's great literary efflorescences, driven by aristocratic women. The development of <em>kana</em> (hiragana and katakana) gave educated women a distinctly Japanese script. Men wrote official documents in Chinese; women wrote in Japanese — producing a body of vernacular literature of extraordinary sophistication.</p><p><strong>Lady Murasaki Shikibu</strong> (c. 973–1014) wrote the <em>Genji Monogatari</em> (The Tale of Genji, c. 1008) — 54 chapters following the romantic and political life of the fictional 'shining prince' Hikaru Genji. Widely regarded as the world's first psychological novel, it is notable for <em>mono no aware</em> (the pathos of transient things) and complex female interiority. <strong>Sei Shōnagon</strong>'s <em>Makura no Sōshi</em> (The Pillow Book) captures Heian aesthetic sensibility with sparkling wit.</p>"
+      },
+      {
+        "h2": "The Rise of the Warriors and the Genpei War",
+        "dates": [
+          [
+            "1156 CE",
+            "Hōgen Disturbance; samurai enter capital politics"
+          ],
+          [
+            "1179 CE",
+            "Taira no Kiyomori takes control of government"
+          ],
+          [
+            "1180–85",
+            "Genpei War"
+          ],
+          [
+            "1185 CE",
+            "Battle of Dan-no-ura ends Heian period"
+          ]
+        ],
+        "body": "<p>The collapse of the ritsuryō land system and the growth of <em>shōen</em> (private tax-exempt estates) created provincial warrior clans. Two clans — the <strong>Taira</strong> and the <strong>Minamoto</strong> — rose to national prominence. Taira no Kiyomori effectively took over the government by 1179 — the first warrior to do so. The <strong>Genpei War</strong> (1180–85) ended at the naval Battle of Dan-no-ura (1185), where the Taira were annihilated and child emperor Antoku drowned.</p><div class='callout'><strong>The shōen connection:</strong> As private estates multiplied and escaped central taxation, the government's revenue and administrative reach shrank. Provincial warriors who provided security became estate managers and accumulated local power — the structural cause of samurai dominance.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Sesshō",
+        "Regent for a child emperor; Fujiwara mechanism of control"
+      ],
+      [
+        "Kampaku",
+        "Regent for an adult emperor; the other Fujiwara regency title"
+      ],
+      [
+        "Insei",
+        "Rule by a retired emperor; mechanism to escape Fujiwara control"
+      ],
+      [
+        "Shōen",
+        "Private tax-exempt estates; undermined the ritsuryō fiscal system"
+      ],
+      [
+        "Mono no aware",
+        "'Pathos of things'; central Heian aesthetic of transient beauty"
+      ],
+      [
+        "Genji Monogatari",
+        "The Tale of Genji; c.1008; world's first psychological novel"
+      ],
+      [
+        "Genpei War",
+        "1180–85 civil war between Minamoto and Taira; ended Heian period"
+      ],
+      [
+        "Kana",
+        "Phonetic Japanese scripts (hiragana/katakana); enabled women's literature"
+      ],
+      [
+        "Kokinshū",
+        "905 CE poetry anthology; contrast with Man'yōshū for exam purposes"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The Fujiwara clan maintained political dominance primarily through:",
+        "opts": [
+          "Control of the military",
+          "Marrying daughters into the imperial family and serving as regents",
+          "Monopoly of Buddhist institutions",
+          "Direct ownership of all provincial land"
+        ],
+        "ans": 1,
+        "exp": "The Fujiwara placed their daughters as imperial consorts and served as sesshō (regent for child emperors) or kampaku (regent for adult emperors) — governing without holding imperial office."
+      },
+      {
+        "q": "The Tale of Genji (c.1008) was written by a woman partly because:",
+        "opts": [
+          "Men were prohibited from writing fiction",
+          "Kana scripts were associated with women's writing while men used Chinese for official purposes",
+          "The author disguised her identity",
+          "Women had more leisure time than men at court"
+        ],
+        "ans": 1,
+        "exp": "Kana (hiragana) was associated with vernacular Japanese writing used by women, while educated men wrote official documents in Chinese. This gave aristocratic women the medium for Heian's greatest literature."
+      },
+      {
+        "q": "The insei system (rule by retired emperors) was developed primarily to:",
+        "opts": [
+          "Give emperors more time for religious practice",
+          "Escape Fujiwara regency control while retaining real power",
+          "Allow older men to enjoy retirement",
+          "Consolidate Buddhist and imperial authority"
+        ],
+        "ans": 1,
+        "exp": "By retiring from the throne (releasing them from Fujiwara kampaku regency) while continuing to govern as Retired Emperor, figures like Shirakawa reclaimed actual political power from the Fujiwara."
+      },
+      {
+        "q": "The growth of shōen estates contributed to samurai power because:",
+        "opts": [
+          "Shōen owners hired samurai who accumulated regional influence",
+          "Samurai received shōen as rewards from the emperor",
+          "Shōen estates were required to train samurai",
+          "The ritsuryō system created shōen specifically for warrior clans"
+        ],
+        "ans": 0,
+        "exp": "As private estates multiplied and escaped central taxation, the government's revenue shrank. Provincial warriors who provided security became estate managers and accumulated land, followers, and local power."
+      },
+      {
+        "q": "The Genpei War (1180–85) ended with:",
+        "opts": [
+          "A negotiated peace",
+          "The Taira clan's destruction at the naval Battle of Dan-no-ura",
+          "The restoration of Fujiwara regency",
+          "The abdication of the Minamoto leader"
+        ],
+        "ans": 1,
+        "exp": "The Battle of Dan-no-ura (1185) was a decisive Minamoto naval victory. The Taira were annihilated; child emperor Antoku drowned. Minamoto Yoritomo then established Japan's first military government at Kamakura."
+      }
+    ]
+  },
+  {
+    "id": "kamakura",
+    "num": "05",
+    "jp": "鎌倉",
+    "name": "Kamakura Shogunate",
+    "years": "1185 – 1333",
+    "intro": "Japan's first military government was also its first experiment with dual sovereignty — maintaining an imperial court in Kyoto while real power resided with the shogun's administration in Kamakura. This institutional arrangement, and the crises it survived, defined samurai governance for centuries.",
+    "sections": [
+      {
+        "h2": "Establishing the Bakufu",
+        "dates": [
+          [
+            "1185 CE",
+            "Yoritomo controls Japan after Genpei War"
+          ],
+          [
+            "1192 CE",
+            "Minamoto Yoritomo named shogun"
+          ],
+          [
+            "1199 CE",
+            "Yoritomo dies; Hōjō regency begins"
+          ],
+          [
+            "1221 CE",
+            "Jōkyū War; court's power crushed"
+          ]
+        ],
+        "body": "<p><strong>Minamoto no Yoritomo</strong> established his base at Kamakura — geographically defensible and distant from Kyoto's entanglements. In 1192, he received the title <em>Seii Taishogun</em> from the emperor, giving his military government (<em>bakufu</em>) formal legitimacy. The result was Japan's first explicit dual polity: the imperial court retained cultural prestige and nominal sovereignty; the bakufu controlled military affairs through a network of <em>shugo</em> (military governors) and <em>jitō</em> (estate stewards).</p><p>Yoritomo died in 1199. Power passed to the <strong>Hōjō clan</strong>, who served as <em>shikken</em> (regent) to the shogun — creating a three-level structure: emperor → shogun → Hōjō regent. The Hōjō cemented authority by defeating Retired Emperor Go-Toba's coup in the <strong>Jōkyū War</strong> of 1221.</p>"
+      },
+      {
+        "h2": "The Mongol Invasions and New Buddhism",
+        "dates": [
+          [
+            "1268 CE",
+            "Kublai Khan demands Japanese submission"
+          ],
+          [
+            "1274 CE",
+            "First Mongol invasion repelled"
+          ],
+          [
+            "1281 CE",
+            "Second invasion destroyed by typhoon"
+          ],
+          [
+            "1333 CE",
+            "Kamakura bakufu overthrown"
+          ]
+        ],
+        "body": "<p>Kublai Khan demanded Japanese submission in 1268. The Hōjō regent refused. The first invasion (1274) brought 25,000–33,000 troops — Japanese defenders were shocked by explosive projectiles and massed arrow fire. The second invasion (1281) involved perhaps 140,000 troops; after weeks of fighting, a powerful typhoon (<em>kamikaze</em>, 'divine wind') destroyed much of the Mongol fleet. The invasions were repelled but created a fiscal crisis: warriors who fought expected land rewards, but no enemy land was captured.</p><p>The Kamakura period saw the emergence of distinctly Japanese Buddhist schools: <strong>Pure Land</strong> (Jōdo-shū) offered salvation through the nembutsu prayer — accessible to all. <strong>Nichiren</strong> Buddhism insisted exclusively on the Lotus Sutra. <strong>Zen</strong> (Rinzai and Sōtō) emphasised meditation and direct experience, appealing especially to warriors.</p>"
+      }
+    ],
+    "terms": [
+      [
+        "Bakufu",
+        "'Tent government'; the shogunate's military administration"
+      ],
+      [
+        "Shugo",
+        "Military governors appointed by the bakufu to provinces"
+      ],
+      [
+        "Jitō",
+        "Estate stewards who managed land and collected taxes for the bakufu"
+      ],
+      [
+        "Shikken",
+        "Hōjō regent — controlled the shogun; third layer of Kamakura government"
+      ],
+      [
+        "Jōkyū War",
+        "1221; Hōjō victory over Retired Emperor Go-Toba; cemented bakufu dominance"
+      ],
+      [
+        "Kamikaze",
+        "'Divine wind'; typhoons that destroyed Mongol invasion fleets (1274, 1281)"
+      ],
+      [
+        "Nembutsu",
+        "'Namu Amida Butsu'; Pure Land Buddhist practice; accessible to all"
+      ],
+      [
+        "Dual polity",
+        "Emperor retains ritual sovereignty; shogun holds military-administrative power"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The Kamakura bakufu is best described as a:",
+        "opts": [
+          "Replacement of the imperial system",
+          "Dual polity where the court retained ritual authority and the shogunate held military-administrative power",
+          "Democratic government elected by warriors",
+          "Theocratic state combining Buddhist and imperial authority"
+        ],
+        "ans": 1,
+        "exp": "The Kamakura system was explicitly dual: the emperor in Kyoto retained ceremonial sovereignty; the Kamakura shogunate controlled military affairs and land dispute adjudication through shugo and jitō."
+      },
+      {
+        "q": "After Yoritomo's death, real power in Kamakura passed to the Hōjō clan acting as:",
+        "opts": [
+          "Shogun",
+          "Retired Shogun",
+          "Shikken (regent to the shogun)",
+          "Kampaku"
+        ],
+        "ans": 2,
+        "exp": "The Hōjō served as shikken (regent) to the shogun — creating a three-tier structure: emperor → shogun → Hōjō regent. This layered indirect rule became a recurring feature of Japanese governance."
+      },
+      {
+        "q": "The Jōkyū War (1221) demonstrated that:",
+        "opts": [
+          "The emperor could reassert power over the bakufu",
+          "The Hōjō could militarily and politically dominate the imperial court",
+          "The Minamoto clan survived Yoritomo's death",
+          "Buddhism could mediate between court and warriors"
+        ],
+        "ans": 1,
+        "exp": "Retired Emperor Go-Toba's attempted coup failed completely. The Hōjō confiscated his estates, exiled him, and installed a new emperor — proving the bakufu could override imperial authority."
+      },
+      {
+        "q": "The Mongol invasions created a fiscal crisis for the Kamakura bakufu because:",
+        "opts": [
+          "The invasions destroyed Japan's rice crop",
+          "Warriors expected land rewards for fighting but no enemy land was available to redistribute",
+          "The invasions were lost and Japan paid tribute",
+          "Kublai Khan imposed trade embargoes"
+        ],
+        "ans": 1,
+        "exp": "Japanese warfare traditionally rewarded warriors with captured land. Since the Mongols were repelled rather than conquered, no new land was available to distribute. Warriors went unrewarded, undermining the bakufu's authority."
+      },
+      {
+        "q": "Which Kamakura-era Buddhist movement is most associated with accessibility to ordinary people through a simple prayer practice?",
+        "opts": [
+          "Zen (Rinzai)",
+          "Kegon",
+          "Pure Land (Jōdo-shū)",
+          "Shingon"
+        ],
+        "ans": 2,
+        "exp": "Pure Land Buddhism, founded by Hōnen, taught salvation through repetition of the nembutsu ('Namu Amida Butsu') — a practice accessible to illiterate farmers and women, not just learned monks or elite warriors."
+      }
+    ]
+  },
+  {
+    "id": "muromachi",
+    "num": "06",
+    "jp": "室町・戦国",
+    "name": "Muromachi & Sengoku Periods",
+    "years": "1336 – 1573",
+    "intro": "The Muromachi shogunate presided over one of Japan's great cultural flowerings — Noh theatre, the tea ceremony, ink painting — before its authority collapsed into a century of civil war that transformed the political landscape and set the stage for reunification.",
+    "sections": [
+      {
+        "h2": "The Ashikaga Shogunate and Muromachi Culture",
+        "dates": [
+          [
+            "1336 CE",
+            "Ashikaga Takauji establishes shogunate in Kyoto"
+          ],
+          [
+            "1336–92",
+            "Northern and Southern Court split (Nanbokuchō)"
+          ],
+          [
+            "1392 CE",
+            "Courts reunified"
+          ],
+          [
+            "1404 CE",
+            "Tally trade with Ming China begins"
+          ]
+        ],
+        "body": "<p><strong>Ashikaga Takauji</strong> established his shogunate in the Muromachi district of Kyoto — at the cultural centre rather than separate from it. The third shogun, <strong>Yoshimitsu</strong> (r. 1368–1394), patronised <strong>Noh theatre</strong> (created by Zeami Motokiyo), resumed diplomatic trade with Ming China under the tally trade system, and built the Golden Pavilion (<em>Kinkaku-ji</em>). Later shoguns patronised <em>renga</em> (linked verse), ink-wash painting, and the formalised <em>chanoyu</em> (tea ceremony).</p><p>The shogunate's legitimacy was initially contested by the <strong>Nanbokuchō</strong> (Northern and Southern Courts) split (1336–1392) — Go-Daigo's rival Southern Court generated significant debate about legitimate succession.</p>"
+      },
+      {
+        "h2": "The Ōnin War and the Sengoku Period",
+        "dates": [
+          [
+            "1467 CE",
+            "Ōnin War begins in Kyoto"
+          ],
+          [
+            "1477 CE",
+            "Ōnin War ends; Sengoku period begins"
+          ],
+          [
+            "1543 CE",
+            "Portuguese introduce firearms at Tanegashima"
+          ],
+          [
+            "1549 CE",
+            "Francis Xavier arrives; Jesuit missions begin"
+          ]
+        ],
+        "body": "<p>The <strong>Ōnin War</strong> (1467–77) began as a dispute over shogunal succession and reduced much of Kyoto to ashes. The shogunate never recovered its authority. The <strong>Sengoku</strong> ('Warring States') period (c. 1467–1573) followed — roughly a century of near-constant warfare in which <em>daimyō</em> competed for territory. The concept of <em>gekokujō</em> ('the low overturning the high') captures the era's social fluidity.</p><p>The arrival of Portuguese traders at Tanegashima in 1543 introduced <strong>firearms</strong> that would transform Japanese warfare. The Jesuit missionary <strong>Francis Xavier</strong> arrived in 1549, beginning a Christian mission that would at its peak count several hundred thousand converts.</p><div class='callout'><strong>Why Sengoku matters for the exam:</strong> The Sengoku period's social upheaval explains why the Three Unifiers could emerge from relatively humble backgrounds, and why their social-control measures (Sword Hunt, land surveys) were so significant — they were systematically reversing the gekokujō dynamic.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Nanbokuchō",
+        "Northern and Southern Court split (1336–1392); rival imperial lines"
+      ],
+      [
+        "Daimyō",
+        "Regional warlords of the Sengoku period; controlled autonomous domains"
+      ],
+      [
+        "Ōnin War",
+        "1467–77; decade of war in Kyoto; triggered the Sengoku period"
+      ],
+      [
+        "Sengoku",
+        "'Warring States' period, c.1467–1573; near-constant civil war"
+      ],
+      [
+        "Gekokujō",
+        "'The low overturning the high'; social inversion characteristic of Sengoku"
+      ],
+      [
+        "Noh",
+        "Classical theatre patronised by Yoshimitsu; created by Zeami Motokiyo"
+      ],
+      [
+        "Chanoyu",
+        "Tea ceremony; developed in Muromachi; formalised by Sen no Rikyū"
+      ],
+      [
+        "Kangō bōeki",
+        "Tally trade system with Ming China; resumed by Ashikaga Yoshimitsu"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The Ōnin War (1467–77) is historically significant primarily because:",
+        "opts": [
+          "It ended the imperial line's authority permanently",
+          "It destroyed Ashikaga authority and triggered the Sengoku century of civil war",
+          "It enabled Japan's unification under the Ashikaga",
+          "It introduced firearms to Japanese warfare"
+        ],
+        "ans": 1,
+        "exp": "The Ōnin War devastated Kyoto and shattered the shogunate's authority. It triggered the Sengoku ('Warring States') period — roughly a century of unconstrained regional warfare."
+      },
+      {
+        "q": "Gekokujō, a concept associated with the Sengoku period, means:",
+        "opts": [
+          "The divine right of the emperor",
+          "Loyalty unto death",
+          "The low overturning the high — subordinates displacing lords",
+          "The way of the warrior"
+        ],
+        "ans": 2,
+        "exp": "Gekokujō (下剋上) describes the social inversion characteristic of the Sengoku period, when subordinates regularly overthrew and killed their lords and men of humble origin built large domains."
+      },
+      {
+        "q": "Which Ashikaga shogun patronised Noh theatre and resumed trade with Ming China?",
+        "opts": [
+          "Ashikaga Takauji",
+          "Ashikaga Yoshimitsu",
+          "Ashikaga Yoshimasa",
+          "Ashikaga Yoshiaki"
+        ],
+        "ans": 1,
+        "exp": "Ashikaga Yoshimitsu (r. 1368–1394), the third shogun, was the cultural and political peak of the Muromachi period. He patronised Zeami's Noh theatre, built Kinkaku-ji, and resumed diplomatic trade with Ming China."
+      },
+      {
+        "q": "Portuguese firearms arrived in Japan in 1543 and within decades had:",
+        "opts": [
+          "Been banned by the shogunate",
+          "Transformed battlefield tactics; massed arquebusier formations replaced cavalry charges",
+          "Been adopted only by Christian daimyō",
+          "Remained rare due to manufacturing difficulties"
+        ],
+        "ans": 1,
+        "exp": "Japanese craftsmen quickly reverse-engineered Portuguese arquebuses. By the 1570s, Oda Nobunaga was using massed firearms formations (most famously at Nagashino, 1575) that made traditional samurai cavalry tactics obsolete."
+      },
+      {
+        "q": "The Ashikaga shogunate was located in Kyoto rather than Kamakura primarily because:",
+        "opts": [
+          "Kamakura was destroyed in the Genpei War",
+          "The Ashikaga wanted proximity to the imperial court and its cultural prestige",
+          "Kyoto had better defensive geography",
+          "Zen temples in Kyoto required shogunal supervision"
+        ],
+        "ans": 1,
+        "exp": "Ashikaga Takauji deliberately placed his bakufu in Kyoto's Muromachi district to be at the political and cultural centre — enabling the cultural synthesis between aristocratic and warrior aesthetics that defined Muromachi culture."
+      }
+    ]
+  },
+  {
+    "id": "azuchiMomoyama",
+    "num": "07",
+    "jp": "安土桃山",
+    "name": "Azuchi-Momoyama Period",
+    "years": "1573 – 1603",
+    "intro": "Three extraordinary individuals ended a century of civil war and forged the political and social framework that would govern Japan for the next two and a half centuries. Their methods differed sharply; their combined achievement was the reunification of the archipelago.",
+    "sections": [
+      {
+        "h2": "Oda Nobunaga: The First Unifier",
+        "dates": [
+          [
+            "1560 CE",
+            "Battle of Okehazama; Nobunaga defeats Imagawa"
+          ],
+          [
+            "1571 CE",
+            "Nobunaga burns Enryaku-ji on Mt. Hiei"
+          ],
+          [
+            "1573 CE",
+            "Nobunaga deposes last Ashikaga shogun"
+          ],
+          [
+            "1575 CE",
+            "Battle of Nagashino; massed firearms deployed"
+          ],
+          [
+            "1582 CE",
+            "Honnō-ji Incident; Nobunaga assassinated"
+          ]
+        ],
+        "body": "<p><strong>Oda Nobunaga</strong> (1534–1582) came from a minor daimyō family in Owari province. Over two decades he subdued rivals across central Japan, deposed the last Ashikaga shogun in 1573, and controlled nearly a third of the country before his death. He deployed firearms in disciplined massed formations — most spectacularly at <strong>Nagashino</strong> (1575), where rows of arquebusiers firing in rotation destroyed the Takeda cavalry. He promoted <em>rakuichi rakuza</em> (free markets) and violently destroyed Buddhist military power, most notoriously burning the Enryaku-ji complex on Mt. Hiei in 1571. He was assassinated at Honnō-ji in 1582 by his general Akechi Mitsuhide.</p>"
+      },
+      {
+        "h2": "Toyotomi Hideyoshi and Tokugawa Ieyasu",
+        "dates": [
+          [
+            "1582 CE",
+            "Hideyoshi avenges Nobunaga; takes control"
+          ],
+          [
+            "1588 CE",
+            "Sword Hunt disarms peasants"
+          ],
+          [
+            "1592, 1597",
+            "Korean invasions"
+          ],
+          [
+            "1598 CE",
+            "Hideyoshi dies"
+          ],
+          [
+            "1600 CE",
+            "Battle of Sekigahara"
+          ],
+          [
+            "1603 CE",
+            "Tokugawa shogunate established"
+          ]
+        ],
+        "body": "<p><strong>Toyotomi Hideyoshi</strong> (1537–1598), of peasant origin, completed unification by 1590. His <strong>Taikō-kenchi</strong> (land survey) systematically measured rice yields across Japan. The <strong>Sword Hunt</strong> of 1588 confiscated weapons from farmers and townspeople, crystallising the distinction between the warrior class and the agricultural population. His Korean invasions (1592, 1597) failed militarily and exhausted resources. When Hideyoshi died in 1598, he left a five-year-old heir.</p><p><strong>Tokugawa Ieyasu</strong>, the most powerful regent, won the decisive <strong>Battle of Sekigahara</strong> (1600) and received the title of shogun in 1603.</p><div class='callout'><strong>The Three Unifiers compared (classic exam question):</strong> Nobunaga pounded the rice cake — destroyed the old order. Hideyoshi kneaded it — built the social structure. Ieyasu sat down and ate it — institutionalised it into a system lasting 260+ years. Each built on his predecessor's foundation.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Rakuichi rakuza",
+        "Free markets, abolition of guild monopolies; Nobunaga's commercial policy"
+      ],
+      [
+        "Taikō-kenchi",
+        "Hideyoshi's systematic national land survey; fixed tax rates"
+      ],
+      [
+        "Sword Hunt",
+        "1588; Hideyoshi's confiscation of weapons from non-samurai"
+      ],
+      [
+        "Battle of Nagashino",
+        "1575; Nobunaga's massed arquebusier tactics destroyed Takeda cavalry"
+      ],
+      [
+        "Honnō-ji Incident",
+        "1582; Nobunaga's assassination by his general Akechi Mitsuhide"
+      ],
+      [
+        "Battle of Sekigahara",
+        "1600; Ieyasu's decisive victory leading to the Tokugawa shogunate"
+      ],
+      [
+        "Bunroku/Keichō",
+        "1592 and 1597 Korean invasion campaigns ordered by Hideyoshi"
+      ],
+      [
+        "The Three Unifiers",
+        "Nobunaga (destroyed old order), Hideyoshi (built framework), Ieyasu (institutionalised)"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Oda Nobunaga's treatment of Buddhist establishments (including burning Enryaku-ji) was motivated primarily by:",
+        "opts": [
+          "Personal conversion to Christianity",
+          "Desire to appropriate Buddhist wealth",
+          "Eliminating the political and military power of institutions that opposed him",
+          "Shinto nativist ideology"
+        ],
+        "ans": 2,
+        "exp": "Nobunaga attacked Buddhist establishments because they actively opposed his unification with military force. This was primarily a political-military decision, not an anti-religious one."
+      },
+      {
+        "q": "Hideyoshi's Sword Hunt of 1588 is significant because it:",
+        "opts": [
+          "Disarmed all samurai",
+          "Crystallised the distinction between the warrior class and commoners, fixing social boundaries",
+          "Collected weapons for the Korean invasion",
+          "Was immediately reversed by Tokugawa Ieyasu"
+        ],
+        "ans": 1,
+        "exp": "By confiscating weapons from farmers, priests, and townspeople, the Sword Hunt institutionalised the boundary between bushi (warriors) and the rest of the population — foundational to the rigid Tokugawa social order."
+      },
+      {
+        "q": "The Battle of Sekigahara (1600) was fought between:",
+        "opts": [
+          "The Toyotomi and the Ming Chinese",
+          "Ieyasu's eastern coalition and a western coalition loyal to the Toyotomi heir",
+          "Hideyoshi and Nobunaga's remnant forces",
+          "The Shimazu and Mōri clans"
+        ],
+        "ans": 1,
+        "exp": "Sekigahara was the decisive confrontation between Tokugawa Ieyasu's eastern forces and a western coalition nominally defending Toyotomi Hideyori. Ieyasu's victory opened the path to the shogunate."
+      },
+      {
+        "q": "Hideyoshi's Korean invasions (1592, 1597) ended in:",
+        "opts": [
+          "Japanese conquest of Korea",
+          "Military failure and exhaustion of Japanese resources",
+          "Korean acceptance of Japanese suzerainty",
+          "A negotiated partition"
+        ],
+        "ans": 1,
+        "exp": "Both invasions ultimately failed. Korean resistance (including Admiral Yi Sun-sin's naval genius), Ming Chinese intervention, and overextended supply lines led to withdrawal. The campaigns exhausted Japan."
+      },
+      {
+        "q": "The saying 'Nobunaga pounded the rice cake, Hideyoshi kneaded it, Ieyasu ate it' primarily conveys:",
+        "opts": [
+          "Their different social origins",
+          "Their sequential contributions and contrasting methods",
+          "The different regions they controlled",
+          "Their religious affiliations"
+        ],
+        "ans": 1,
+        "exp": "The saying captures their complementary roles: Nobunaga destroyed the old order; Hideyoshi built the social and administrative framework; Ieyasu institutionalised it into a durable system lasting 260+ years."
+      }
+    ]
+  },
+  {
+    "id": "edo",
+    "num": "08",
+    "jp": "江戸",
+    "name": "The Edo Period",
+    "years": "1603 – 1868",
+    "intro": "The Tokugawa peace lasted over two and a half centuries — an extraordinary achievement of social engineering and institutional design. Beneath its rigid surface, however, new social forces were accumulating that would overwhelm the system when the outside world forced its way back in.",
+    "sections": [
+      {
+        "h2": "Tokugawa Governance: Control Mechanisms",
+        "dates": [
+          [
+            "1603 CE",
+            "Tokugawa shogunate established"
+          ],
+          [
+            "1615 CE",
+            "Osaka Castle falls; Toyotomi eliminated"
+          ],
+          [
+            "1635 CE",
+            "Sankin-kōtai formalised; sakoku enacted"
+          ]
+        ],
+        "body": "<p>The roughly 270 daimyō were divided into <em>fudai</em> (hereditary Tokugawa vassals) in strategically sensitive domains and <em>tozama</em> (outside lords, former enemies at Sekigahara) in distant domains and excluded from key offices. The most elegant control mechanism was <strong>sankin-kōtai</strong> (alternate attendance): daimyō spent alternate years in Edo and their home domains, leaving families in Edo as permanent hostages. The system imposed enormous expense, keeping daimyō financially weakened.</p><p>Tokugawa society was officially stratified into four ranks: samurai (<em>shi</em>), farmers (<em>nō</em>), artisans (<em>kō</em>), and merchants (<em>shō</em>) — the <em>shi-nō-kō-shō</em> order — with outcaste groups below. In practice, wealthy merchants often held more real economic power than impoverished samurai.</p>"
+      },
+      {
+        "h2": "Sakoku, Rangaku, and Edo Culture",
+        "dates": [
+          [
+            "1637–38",
+            "Shimabara Rebellion; last Christian uprising"
+          ],
+          [
+            "1641 CE",
+            "Dutch confined to Dejima; sakoku complete"
+          ],
+          [
+            "1720 CE",
+            "Restriction on Western books relaxed"
+          ],
+          [
+            "1853 CE",
+            "Perry's Black Ships arrive at Uraga"
+          ]
+        ],
+        "body": "<p>The <strong>sakoku</strong> policy expelled virtually all foreigners and banned overseas travel. Dutch traders were confined to <strong>Dejima</strong> in Nagasaki. From 1720, relaxation of book import rules enabled <strong>rangaku</strong> (Dutch learning) — study of Western science, medicine, and geography through Dutch intermediaries.</p><p>Far from stagnation, the Edo period was one of Japan's most culturally productive eras. Urban merchant culture (<em>chōnin</em>) produced <strong>kabuki</strong> theatre, <strong>ukiyo-e</strong> woodblock prints (Hokusai, Hiroshige), and <strong>haiku</strong> reaching its height with <strong>Matsuo Bashō</strong>. Japan's literacy rates reached levels comparable to Western Europe.</p><p>US Commodore <strong>Matthew Perry</strong>'s arrival in 1853 forced the bakufu to open ports. The Ansei Treaties of 1858 granted extraterritoriality and fixed tariffs — humiliating concessions. The <em>sonnō jōi</em> ('revere the emperor, expel the barbarians') movement grew. After the Boshin War (1868–69), the Tokugawa shogunate fell.</p><div class='callout'><strong>Sankin-kōtai's unexpected legacy:</strong> By requiring daimyō processions to Edo and back, the system made Japan's highway network among the world's most heavily trafficked — stimulating commerce, communications, and a shared national culture that made rapid modernisation post-1868 easier.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Sankin-kōtai",
+        "Alternate attendance; daimyō spent alternating years in Edo; families as hostages"
+      ],
+      [
+        "Fudai",
+        "Hereditary Tokugawa vassals; placed in strategic domains"
+      ],
+      [
+        "Tozama",
+        "Outside lords; former enemies at Sekigahara; excluded from key offices"
+      ],
+      [
+        "Sakoku",
+        "'Closed country'; isolation policy; Dutch and Chinese only at Nagasaki"
+      ],
+      [
+        "Dejima",
+        "Artificial island in Nagasaki; sole Dutch trading post during sakoku"
+      ],
+      [
+        "Rangaku",
+        "'Dutch learning'; Western science filtered through Nagasaki"
+      ],
+      [
+        "Chōnin",
+        "Urban merchant/artisan class; patrons of Edo popular culture"
+      ],
+      [
+        "Sonnō jōi",
+        "'Revere emperor, expel barbarians'; anti-Tokugawa slogan"
+      ],
+      [
+        "Ukiyo-e",
+        "Woodblock print tradition; Hokusai, Hiroshige; the 'floating world'"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The sankin-kōtai system controlled daimyō primarily through:",
+        "opts": [
+          "Annual military inspections",
+          "Requiring alternate residence in Edo with families left as hostages, imposing crippling expenses",
+          "Confiscating domain revenues annually",
+          "Requiring daimyō to marry Tokugawa women"
+        ],
+        "ans": 1,
+        "exp": "Sankin-kōtai required daimyō to alternate between Edo and their domains, maintaining expensive Edo residences. Their families remained in Edo as de facto hostages, making rebellion logistically and politically very difficult."
+      },
+      {
+        "q": "During the sakoku period, which European nation maintained the sole Western trading contact with Japan?",
+        "opts": [
+          "Portugal",
+          "Spain",
+          "England",
+          "The Netherlands (Dutch)"
+        ],
+        "ans": 3,
+        "exp": "The Dutch East India Company (VOC) was confined to Dejima in Nagasaki — the only Western trading contact permitted during sakoku. Portugal was expelled after the Shimabara Rebellion."
+      },
+      {
+        "q": "The Confucian rationale for placing merchants below farmers in the four-tier hierarchy was:",
+        "opts": [
+          "Merchants were foreign in origin",
+          "Merchants were associated with Buddhism",
+          "Merchants did not produce goods but merely traded, making them less socially valuable",
+          "Merchants were too wealthy to be trusted"
+        ],
+        "ans": 2,
+        "exp": "Neo-Confucian ideology valued those who produced (farmers grow food; artisans make goods) over those who merely facilitated exchange without creating value. In practice, wealthy merchants often held more economic power than impoverished samurai."
+      },
+      {
+        "q": "The 'Black Ships' incident (1853) was significant because:",
+        "opts": [
+          "It led to Japan immediately declaring war on the US",
+          "It demonstrated the bakufu's inability to exclude foreign powers, triggering the political crisis leading to the Meiji Restoration",
+          "It resulted in an immediate opening of all Japanese ports",
+          "It caused the emperor to side with the Tokugawa against foreign threats"
+        ],
+        "ans": 1,
+        "exp": "Perry's visit revealed the bakufu's military weakness. The humiliating Ansei Treaties (1858) further delegitimised Tokugawa rule, strengthening the sonnō jōi movement and accelerating the crisis producing the Meiji Restoration."
+      },
+      {
+        "q": "Rangaku (Dutch learning) was significant because it:",
+        "opts": [
+          "Converted large numbers of Japanese to Christianity",
+          "Created a body of intellectuals familiar with Western science, medicine, and military technology",
+          "Replaced Confucianism as Japan's official ideology",
+          "Led directly to the end of sakoku"
+        ],
+        "ans": 1,
+        "exp": "Through the Dutch connection at Nagasaki, a small but important group of Japanese scholars studied Western anatomy, astronomy, geography, and military technology — a knowledge base that accelerated modernisation after 1868."
+      }
+    ]
+  },
+  {
+    "id": "meiji",
+    "num": "09",
+    "jp": "明治・大正・昭和前期",
+    "name": "Meiji Era Through WWII",
+    "years": "1868 – 1945",
+    "intro": "In less than eighty years, Japan transformed from a feudal shogunate into a modern industrial nation, achieved great-power status, built an overseas empire, and then gambled it all in a catastrophic war that ended with nuclear destruction and unconditional surrender.",
+    "sections": [
+      {
+        "h2": "The Meiji Transformation",
+        "dates": [
+          [
+            "1868 CE",
+            "Charter Oath; Meiji Restoration"
+          ],
+          [
+            "1871–73",
+            "Iwakura Mission to the West"
+          ],
+          [
+            "1877 CE",
+            "Satsuma Rebellion crushed by conscript army"
+          ],
+          [
+            "1889 CE",
+            "Meiji Constitution promulgated"
+          ],
+          [
+            "1895 CE",
+            "Japan wins Sino-Japanese War"
+          ]
+        ],
+        "body": "<p>The <strong>Meiji Restoration</strong> combined a genuine revolution in governance with a rhetorical restoration of imperial authority. The Charter Oath (1868) promised deliberative assemblies and knowledge sought worldwide. The abolition of domains and samurai stipends (1871–73) dismantled the feudal order.</p><p>The <strong>Iwakura Mission</strong> (1871–73) sent nearly half the Meiji government on an eighteen-month tour of the US and Europe. They returned convinced Japan must modernise comprehensively, and the state adopted a French-influenced civil code, German-influenced military, and American-influenced school system. The <strong>Satsuma Rebellion</strong> (1877), led by Saigō Takamori, was the last armed challenge by the old warrior class — crushed by the new conscript army. <strong>Itō Hirobumi</strong> drafted the <strong>Meiji Constitution</strong> of 1889: sovereignty in the emperor, military direct access to the throne bypassing the cabinet — a structural flaw that facilitated 1930s militarism.</p>"
+      },
+      {
+        "h2": "Imperial Expansion, Taishō Democracy, and War",
+        "dates": [
+          [
+            "1905 CE",
+            "Russia defeated; Korea controlled"
+          ],
+          [
+            "1910 CE",
+            "Korea annexed"
+          ],
+          [
+            "1923 CE",
+            "Great Kantō Earthquake; ~105,000 deaths"
+          ],
+          [
+            "1931 CE",
+            "Manchurian Incident"
+          ],
+          [
+            "1941 CE",
+            "Pearl Harbor attack"
+          ],
+          [
+            "Aug 1945",
+            "Atomic bombs; Soviet entry; surrender"
+          ]
+        ],
+        "body": "<p>The <strong>Russo-Japanese War</strong> (1904–05) made Japan the first Asian nation in modern history to defeat a European great power. Korea was annexed in 1910. The Taishō period (1912–26) brought brief party government and universal male suffrage (1925). The <strong>Great Kantō Earthquake</strong> (1923) killed approximately 105,000 — followed by violence against Korean residents.</p><p>The <strong>Manchurian Incident</strong> (1931) established the pattern of military insubordination: Kwantung Army officers seized Manchuria without government authorisation and the government endorsed rather than punished them. Pearl Harbor (December 7, 1941) opened the Pacific War. The <strong>Battle of Midway</strong> (June 1942) destroyed four Japanese fleet carriers and ended Japan's strategic offensive capacity. Atomic bombs were dropped on <strong>Hiroshima</strong> (August 6) and <strong>Nagasaki</strong> (August 9, 1945). Hirohito announced surrender on August 15; formal instruments were signed September 2, 1945.</p>"
+      }
+    ],
+    "terms": [
+      [
+        "Charter Oath",
+        "1868; five principles of Meiji governance; symbolic opening of new era"
+      ],
+      [
+        "Iwakura Mission",
+        "1871–73 government delegation to study Western institutions"
+      ],
+      [
+        "Genrō",
+        "Elder statesmen who wielded real power behind constitutional forms"
+      ],
+      [
+        "Meiji Constitution",
+        "1889; emperor sovereign; military direct access to throne; bicameral diet"
+      ],
+      [
+        "Satsuma Rebellion",
+        "1877; last samurai uprising; crushed by conscript army"
+      ],
+      [
+        "Manchurian Incident",
+        "1931; Kwantung Army seizes Manchuria without government orders"
+      ],
+      [
+        "Battle of Midway",
+        "June 1942; loss of four carriers; turning point of Pacific War"
+      ],
+      [
+        "Taishō Democracy",
+        "Brief period of party government and civil liberties (1912–26); undermined by Depression"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "The Iwakura Mission (1871–73) was significant because:",
+        "opts": [
+          "It negotiated the end of unequal treaties",
+          "It sent Japanese officials to study Western institutions, informing comprehensive modernisation policies",
+          "It established Japanese colonies in the Pacific",
+          "It negotiated the Anglo-Japanese Alliance"
+        ],
+        "ans": 1,
+        "exp": "The Iwakura Mission sent senior government officials on an 18-month tour of the West. They returned with detailed knowledge of Western legal, military, educational, and industrial institutions that directly shaped Meiji reforms."
+      },
+      {
+        "q": "The Meiji Constitution (1889) was most problematic in the long term because it:",
+        "opts": [
+          "Abolished the emperor",
+          "Gave the military direct access to the throne, bypassing civilian cabinet control",
+          "Established universal suffrage",
+          "Banned political parties"
+        ],
+        "ans": 1,
+        "exp": "By granting the military direct access to the emperor (independent supreme command), the Meiji Constitution created a structural weakness that allowed military factions to bypass civilian government — facilitating militarism in the 1930s."
+      },
+      {
+        "q": "The Russo-Japanese War (1904–05) was historically significant globally because:",
+        "opts": [
+          "Russia gained control of Korea",
+          "Japan demonstrated that an Asian nation could defeat a European great power in modern warfare",
+          "The United States mediated in Japan's favour",
+          "It led to the formation of the Axis powers"
+        ],
+        "ans": 1,
+        "exp": "Japan's victory shocked the world and reverberated across Asia, inspiring independence movements and challenging the assumption of European military supremacy. It established Japan as a great power in East Asia."
+      },
+      {
+        "q": "The Manchurian Incident (1931) revealed which structural problem?",
+        "opts": [
+          "Civilian governments could control the military through the Diet",
+          "Military units could act independently and force the government to accept faits accomplis",
+          "The emperor directly commanded all military operations",
+          "Political parties had too much power over military appointments"
+        ],
+        "ans": 1,
+        "exp": "The Kwantung Army acted without government authorisation, seizing Manchuria and presenting Tokyo with a fait accompli. Rather than punishing the officers, the government endorsed the action — demonstrating civilian government's inability to control military factions."
+      },
+      {
+        "q": "The atomic bombings of Hiroshima and Nagasaki occurred in which sequence?",
+        "opts": [
+          "Both on the same day",
+          "Hiroshima August 6, Nagasaki August 9, 1945",
+          "Nagasaki first, then Hiroshima",
+          "One in July, one in August 1945"
+        ],
+        "ans": 1,
+        "exp": "The atomic bomb was dropped on Hiroshima on August 6, 1945, and on Nagasaki on August 9. The Soviet Union declared war on Japan on August 8 — three events in four days that prompted Hirohito's announcement of surrender on August 15."
+      }
+    ]
+  },
+  {
+    "id": "postwar",
+    "num": "10",
+    "jp": "戦後・平成・令和",
+    "name": "Postwar Japan to the Present",
+    "years": "1945 – Present",
+    "intro": "Defeat in 1945 brought American occupation, a new constitution, and sweeping social reforms. What followed was an economic miracle, a long stagnation, a series of natural disasters, and an ongoing reckoning with Japan's place in Asia — questions that remain unresolved in the Reiwa era.",
+    "sections": [
+      {
+        "h2": "Allied Occupation and the New Japan",
+        "dates": [
+          [
+            "1945 CE",
+            "Japan surrenders; Allied Occupation begins"
+          ],
+          [
+            "1947 CE",
+            "New Constitution effective; land reform"
+          ],
+          [
+            "1951 CE",
+            "San Francisco Peace Treaty; US-Japan Security Treaty"
+          ],
+          [
+            "1952 CE",
+            "Occupation ends; sovereignty restored"
+          ]
+        ],
+        "body": "<p>The Allied Occupation (1945–52), effectively American under General MacArthur, implemented sweeping reforms. The <strong>new Constitution</strong> of 1947 contained <strong>Article 9</strong>, by which Japan renounced war and the maintenance of war potential. Women received the right to vote; the emperor became 'the symbol of the State and of the unity of the people, deriving his position from the will of the people.'</p><p>Land reform (1946–50) redistributed agricultural land from absentee landlords to tenant farmers. Zaibatsu (industrial conglomerates) were dissolved, though successor companies (<em>keiretsu</em>) quickly re-formed as looser networks. As the Cold War intensified, American policy 'reversed course' — emphasising Japanese economic recovery over democratisation. The 1951 <strong>San Francisco Peace Treaty</strong> restored sovereignty; simultaneously, the <strong>US-Japan Security Treaty</strong> allowed American military bases to remain, providing Japan's security while enabling minimal defence spending.</p>"
+      },
+      {
+        "h2": "The Economic Miracle, Bubble, and Contemporary Japan",
+        "dates": [
+          [
+            "1964 CE",
+            "Tokyo Olympics; Shinkansen opens"
+          ],
+          [
+            "1968 CE",
+            "Japan becomes world's 2nd-largest economy"
+          ],
+          [
+            "1985 CE",
+            "Plaza Accord; yen appreciates sharply"
+          ],
+          [
+            "1991 CE",
+            "Asset bubble collapses"
+          ],
+          [
+            "2011 CE",
+            "3/11 earthquake, tsunami, Fukushima disaster"
+          ],
+          [
+            "2019 CE",
+            "Emperor Akihito abdicates; Reiwa era begins"
+          ]
+        ],
+        "body": "<p>Japan's postwar economic growth averaged approximately 10% annually through the 1960s. Japan became the world's second-largest economy by 1968. The 1964 <strong>Tokyo Olympics</strong> symbolised Japan's reintegration into the international community.</p><p>The <strong>Plaza Accord</strong> (1985) sharply appreciated the yen. Low interest rates and financial deregulation fuelled a massive asset bubble. The bubble collapsed in 1990–91, leading to the '<strong>Lost Decade</strong>' of deflation, stagnant growth, and bank failures. The <strong>3/11 disaster</strong> (March 11, 2011) combined a magnitude-9.0 earthquake, devastating tsunami (~19,000 deaths), and meltdowns at Fukushima Daiichi — Japan's worst peacetime crisis since 1945. <strong>Abe Shinzō</strong>'s return to power (2012) brought 'Abenomics' — aggressive monetary easing, fiscal stimulus, and structural reforms — along with a controversial reinterpretation of Article 9 to permit 'collective self-defence.'</p><div class='callout'><strong>The Article 9 debate:</strong> As written, Article 9 prohibits maintaining war potential. Japan's Self-Defence Forces are justified as a constitutionally permissible exception. Abe's 2015 reinterpretation allowing collective self-defence without formal constitutional amendment was deeply controversial — reflecting unresolved questions about Japan's wartime responsibility and its role in the postwar order.</div>"
+      }
+    ],
+    "terms": [
+      [
+        "Article 9",
+        "Constitution clause renouncing war; allows SDF as 'self-defence' only; contested"
+      ],
+      [
+        "Zaibatsu",
+        "Pre-war industrial conglomerates; dissolved during occupation; succeeded by keiretsu"
+      ],
+      [
+        "Keiretsu",
+        "Post-war corporate networks; looser successor to zaibatsu"
+      ],
+      [
+        "MITI",
+        "Ministry of International Trade and Industry; directed industrial policy"
+      ],
+      [
+        "Plaza Accord",
+        "1985; G5 agreement appreciating the yen; fuelled asset bubble"
+      ],
+      [
+        "Lost Decade",
+        "1990s stagnation after bubble collapse; sometimes 'Lost Two Decades'"
+      ],
+      [
+        "3/11",
+        "March 11, 2011; Tōhoku earthquake-tsunami and Fukushima nuclear disaster"
+      ],
+      [
+        "Abenomics",
+        "Abe Shinzō's economic policy: monetary easing, fiscal stimulus, structural reform"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Article 9 of Japan's 1947 Constitution states that Japan:",
+        "opts": [
+          "Maintains the emperor as head of state with full executive authority",
+          "Renounces war and the maintenance of war potential",
+          "Guarantees the right to armed self-defence",
+          "Prohibits foreign military bases on Japanese soil"
+        ],
+        "ans": 1,
+        "exp": "Article 9 renounces war as a sovereign right and prohibits maintaining war potential. Japan's Self-Defence Forces are justified as a constitutionally permissible exception; Abe's 2015 reinterpretation allowing collective self-defence was highly controversial."
+      },
+      {
+        "q": "The US-Japan Security Treaty (1951, renewed 1960) contributed to Japan's economic miracle by:",
+        "opts": [
+          "Providing direct American financial aid",
+          "Allowing Japan to keep defence spending minimal, freeing resources for industrial investment",
+          "Giving Japan access to American military technology for civilian use",
+          "Protecting Japanese exports from American tariffs"
+        ],
+        "ans": 1,
+        "exp": "Under the American security umbrella, Japan maintained minimal defence spending (typically under 1% of GDP), allowing resources to be channelled into industrial investment and economic development."
+      },
+      {
+        "q": "Japan's 'Lost Decade' of the 1990s was caused primarily by:",
+        "opts": [
+          "The end of Cold War defence contracts",
+          "The collapse of the asset price bubble that had inflated through the late 1980s",
+          "A series of trade embargoes imposed by the United States",
+          "The sudden death of Prime Minister Miyazawa"
+        ],
+        "ans": 1,
+        "exp": "The Plaza Accord (1985) and low interest rates fuelled a massive bubble in stock and real estate prices. When the Bank of Japan raised rates to cool the bubble, it collapsed — leading to bank failures, deflation, and prolonged stagnation."
+      },
+      {
+        "q": "The 3/11 Tōhoku disaster (2011) combined:",
+        "opts": [
+          "A volcanic eruption, typhoon, and tsunami",
+          "An earthquake, tsunami, and nuclear plant meltdowns at Fukushima",
+          "A flood, earthquake, and industrial accident",
+          "A tsunami and chemical plant explosion"
+        ],
+        "ans": 1,
+        "exp": "The March 11, 2011 event comprised a M9.0 earthquake, a devastating tsunami (killing ~19,000), and three reactor meltdowns at the Fukushima Daiichi plant — Japan's worst peacetime crisis since 1945."
+      },
+      {
+        "q": "Abenomics (from 2012) was based on what the government called 'three arrows,' which included:",
+        "opts": [
+          "Land reform, zaibatsu dissolution, and educational reform",
+          "Aggressive monetary easing, fiscal stimulus, and structural economic reforms",
+          "Nuclear expansion, trade liberalisation, and military rearmament",
+          "Currency devaluation, tariff removal, and privatisation"
+        ],
+        "ans": 1,
+        "exp": "Abe's 'three arrows' were: (1) aggressive monetary easing by the Bank of Japan to end deflation; (2) flexible fiscal stimulus; and (3) structural reforms to improve growth potential. Results were mixed, particularly on the third arrow."
+      }
+    ]
+  }
+]
