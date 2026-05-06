@@ -2,6 +2,7 @@
 let currentChapter = 0;
 const completed = new Set();
 const quizResults = {};
+const quizNav = {};
 let fc = { deck: [], index: 0 };
 
 // ── Persistence ───────────────────────────────────────────────
@@ -192,15 +193,28 @@ function renderChapter(idx) {
   </div>`;
 
   const qr = quizResults[idx] || {};
+  const currentQ = quizNav[idx] || 0;
+  const allAnswered = Object.keys(qr).length === ch.quiz.length;
+  const correctCount = allAnswered ? Object.entries(qr).filter(([qi, oi]) => parseInt(oi) === ch.quiz[qi].ans).length : 0;
+
   html += `<div class="quiz-section">
     <div class="quiz-section-label">End of Chapter Quiz</div>
     <h2>Test Your Knowledge</h2>
-    <p class="quiz-section-sub">${ch.quiz.length} questions · ${ch.name}</p>`;
+    <p class="quiz-section-sub">${ch.quiz.length} questions · ${ch.name}</p>
+    <div class="quiz-progress-dots" id="quiz-dots-${idx}">`;
 
   ch.quiz.forEach((q, qi) => {
     const answered = qr[qi] !== undefined;
     const isCorrect = answered && qr[qi] === q.ans;
-    html += `<div class="quiz-q-block" id="qblock-${idx}-${qi}">
+    html += `<button class="quiz-dot${answered ? (isCorrect ? ' correct' : ' wrong') : ''}${qi === currentQ ? ' active' : ''}" onclick="showQuizQ(${idx},${qi})" title="Question ${qi + 1}"></button>`;
+  });
+
+  html += `</div>`;
+
+  ch.quiz.forEach((q, qi) => {
+    const answered = qr[qi] !== undefined;
+    const isCorrect = answered && qr[qi] === q.ans;
+    html += `<div class="quiz-q-block" id="qblock-${idx}-${qi}"${qi !== currentQ ? ' style="display:none"' : ''}>
       <div class="quiz-q-num">Question ${qi + 1} of ${ch.quiz.length}</div>
       <p class="quiz-q-text">${q.q}</p>
       <div class="quiz-opts">`;
@@ -215,10 +229,13 @@ function renderChapter(idx) {
       </div></div>`;
   });
 
-  const allAnswered = Object.keys(qr).length === ch.quiz.length;
-  const correctCount = allAnswered ? Object.entries(qr).filter(([qi, oi]) => parseInt(oi) === ch.quiz[qi].ans).length : 0;
+  html += `<div class="quiz-nav">
+    <button class="btn" id="quiz-prev-${idx}" onclick="prevQ(${idx})"${currentQ === 0 ? ' disabled' : ''}>← Prev</button>
+    <span class="quiz-nav-counter" id="quiz-counter-${idx}">${currentQ + 1} / ${ch.quiz.length}</span>
+    <button class="btn" id="quiz-next-${idx}" onclick="nextQ(${idx})"${currentQ === ch.quiz.length - 1 ? ' disabled' : ''}>Next →</button>
+  </div>`;
 
-  html += `<div class="quiz-results ${allAnswered ? 'show' : ''}" id="quiz-summary-${idx}">
+  html += `<div class="quiz-results${allAnswered ? ' show' : ''}" id="quiz-summary-${idx}">
     <div class="results-score">${allAnswered ? correctCount + '/' + ch.quiz.length : ''}</div>
     <div class="results-label">Questions correct</div>
     <p class="results-msg">${allAnswered ? getScoreMsg(correctCount, ch.quiz.length) : ''}</p>
@@ -282,6 +299,8 @@ function answerQ(ci, qi, oi) {
   const exp = document.getElementById(`qexp-${ci}-${qi}`);
   exp.textContent = (correct ? '✓ Correct. ' : '✗ Incorrect. ') + q.exp;
   exp.className = 'quiz-explanation show ' + (correct ? 'correct' : 'wrong');
+  const dots = document.querySelectorAll(`#quiz-dots-${ci} .quiz-dot`);
+  if (dots[qi]) dots[qi].classList.add(correct ? 'correct' : 'wrong');
   saveProgress();
   if (Object.keys(quizResults[ci]).length === ch.quiz.length) {
     completed.add(ci);
@@ -298,12 +317,33 @@ function answerQ(ci, qi, oi) {
 
 function retakeQuiz(idx) {
   delete quizResults[idx];
+  delete quizNav[idx];
   completed.delete(idx);
   saveProgress();
   buildSidebar();
   renderChapter(idx);
   setTimeout(() => { document.querySelector('.quiz-section')?.scrollIntoView({ behavior: 'smooth' }); }, 100);
 }
+
+function showQuizQ(ci, qi) {
+  const ch = chapters[ci];
+  if (qi < 0 || qi >= ch.quiz.length) return;
+  const prev = quizNav[ci] || 0;
+  if (prev !== qi) {
+    document.getElementById(`qblock-${ci}-${prev}`).style.display = 'none';
+  }
+  document.getElementById(`qblock-${ci}-${qi}`).style.display = '';
+  quizNav[ci] = qi;
+  document.getElementById(`quiz-counter-${ci}`).textContent = `${qi + 1} / ${ch.quiz.length}`;
+  document.getElementById(`quiz-prev-${ci}`).disabled = qi === 0;
+  document.getElementById(`quiz-next-${ci}`).disabled = qi === ch.quiz.length - 1;
+  document.querySelectorAll(`#quiz-dots-${ci} .quiz-dot`).forEach((dot, i) => {
+    dot.classList.toggle('active', i === qi);
+  });
+}
+
+function prevQ(ci) { showQuizQ(ci, (quizNav[ci] || 0) - 1); }
+function nextQ(ci) { showQuizQ(ci, (quizNav[ci] || 0) + 1); }
 
 // ── Flashcards ────────────────────────────────────────────────
 
