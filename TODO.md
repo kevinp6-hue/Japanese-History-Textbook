@@ -114,7 +114,7 @@ Last updated: 2026-05-05
 ## Content: Cross-Cutting Additions
 
 - [ ] **Add "exam angle" callouts to all sections that are missing them** — currently only Ch01 sec3, Ch03 sec3, Ch05 sec2, Ch06 sec2, Ch07 sec2, Ch08 sec2, Ch10 sec2 have them; aim for at least one per chapter
-- [ ] **Add a chronological comparison appendix** — either a new "Chapter 11" or a standalone page listing all major dates across all eras in one view; useful for spotting contemporaneous events across different chapters
+- [x] **Add a chronological comparison appendix** — either a new "Chapter 11" or a standalone page listing all major dates across all eras in one view; useful for spotting contemporaneous events across different chapters
 - [ ] **Write sources for chapters 02, 03, 04, 05, 06, 07, 08, 09, 10** — Chapter 01 is the only one with sources; the suggested works above are a starting point
 - [ ] **Review key terms for completeness** — cross-check each chapter's terms array against the body text; any bolded or italicized term in the body should appear in the key terms list
 - [ ] **Expand quiz banks** — several chapters have fewer than 5 questions; aim for 5–7 per chapter with a mix of factual recall and interpretive questions
@@ -123,15 +123,15 @@ Last updated: 2026-05-05
 
 ## UX / Features
 
-- [ ] **Quiz score dashboard** — after completing all 10 chapters, show a summary screen: score per chapter, overall percentage, weakest topic
-- [ ] **"Time to read" estimate** — word count ÷ 200 wpm displayed on each chapter card and at the top of each chapter
-- [ ] **Swipe gestures on mobile** — swipe left/right to navigate between chapters (arrow keys work for keyboard users; mobile has no equivalent)
-- [ ] **Bookmark / "resume here"** — remember the last section the user was reading within a chapter, not just chapter-level completion
-- [ ] **Accessibility pass** — add `aria-label` to the flashcard flip button, `role="status"` to quiz feedback, Tab key navigation for all interactive elements
-- [ ] **Favicon** — the browser tab shows no icon
-- [ ] **Open Graph / meta tags** — add `<meta name="description">` and OG tags so the page looks good when shared as a link
-- [ ] **Reset progress button** — there is currently no way to clear localStorage and start over without DevTools
-- [ ] **Search within a chapter** — a Ctrl+F-style in-page search that highlights matching text in the current chapter body
+- [x] **Quiz score dashboard** — after completing all 10 chapters, show a summary screen: score per chapter, overall percentage, weakest topic
+- [x] **"Time to read" estimate** — word count ÷ 200 wpm displayed on each chapter card and at the top of each chapter
+- [x] **Swipe gestures on mobile** — swipe left/right to navigate between chapters (arrow keys work for keyboard users; mobile has no equivalent)
+- [x] **Bookmark / "resume here"** — remember the last section the user was reading within a chapter, not just chapter-level completion
+- [x] **Accessibility pass** — add `aria-label` to the flashcard flip button, `role="status"` to quiz feedback, Tab key navigation for all interactive elements
+- [x] **Favicon** — the browser tab shows no icon
+- [x] **Open Graph / meta tags** — add `<meta name="description">` and OG tags so the page looks good when shared as a link
+- [x] **Reset progress button** — there is currently no way to clear localStorage and start over without DevTools
+- [x] **Search within a chapter** — a Ctrl+F-style in-page search that highlights matching text in the current chapter body
 
 ---
 

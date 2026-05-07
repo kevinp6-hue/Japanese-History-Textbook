@@ -1,21 +1,52 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>日本の歴史 — Japanese History Textbook</title>
+<meta name="description" content="Ten chapters covering every major era from prehistoric Japan to the Reiwa period — with key terms, timelines, flashcards, and chapter quizzes.">
+<meta property="og:title" content="日本の歴史 — Japanese History Textbook">
+<meta property="og:description" content="Ten chapters covering every major era from prehistoric Japan to the Reiwa period — with key terms, timelines, flashcards, and chapter quizzes.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="History Favicon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="日本の歴史 — Japanese History Textbook">
+<meta name="twitter:description" content="Ten chapters covering every major era from prehistoric Japan to the Reiwa period — with key terms, timelines, flashcards, and chapter quizzes.">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Shippori+Mincho:wght@400;700&family=DM+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="History Favicon.png">
 </head>
 <body>
 
 <div class="reading-progress" id="reading-progress"></div>
+
+<!-- KEYBOARD SHORTCUTS MODAL -->
+<div class="shortcuts-overlay" id="shortcuts-overlay" hidden onclick="closeShortcuts()">
+  <div class="shortcuts-panel" onclick="event.stopPropagation()">
+    <div class="shortcuts-header">
+      <span class="shortcuts-title">Keyboard Shortcuts</span>
+      <button class="shortcuts-close" onclick="closeShortcuts()" aria-label="Close">×</button>
+    </div>
+    <div class="shortcuts-grid">
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>←</kbd><kbd>→</kbd></div><span>Previous / Next chapter</span></div>
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>Ctrl</kbd><kbd>F</kbd></div><span>Search within chapter</span></div>
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>Enter</kbd></div><span>Next search match (in search bar)</span></div>
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>Shift</kbd><kbd>Enter</kbd></div><span>Previous search match</span></div>
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>Space</kbd></div><span>Flip flashcard (when focused)</span></div>
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>?</kbd></div><span>Show this panel</span></div>
+      <div class="shortcut-row"><div class="shortcut-keys"><kbd>Esc</kbd></div><span>Close search / shortcuts</span></div>
+    </div>
+    <div class="shortcuts-footer">Swipe left / right on mobile to navigate chapters</div>
+  </div>
+</div>
 
 <!-- HOME PAGE -->
 <div class="page active" id="home">
   <div class="home-hero">
     <div class="home-hero-bg"></div>
     <div class="home-utils">
+      <button class="util-btn" onclick="openShortcuts()" aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</button>
+      <button class="util-btn" onclick="openDashboard()">Progress</button>
       <button class="util-btn" onclick="openGlossary()">Glossary</button>
       <button class="util-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
     </div>
@@ -24,6 +55,10 @@
     <p class="hero-anim d3 home-sub">日本の歴史 — 完全版テキスト</p>
     <p class="hero-anim d4 home-desc">Ten chapters covering every major era from prehistoric Japan to the Reiwa period — with textbook-depth content, key terms, chronological sidebars, and a quiz at the end of each chapter.</p>
     <button class="hero-anim d5 home-cta" onclick="openChapter(0)">Begin with Chapter 1 →</button>
+    <div class="home-hero-tools">
+      <button class="hero-tool-btn" onclick="openTimeline()">Chronological Timeline</button>
+      <button class="hero-tool-btn" onclick="openExam()">Mock Exam</button>
+    </div>
     <div class="home-scroll-hint">Or select a chapter below</div>
   </div>
   <div class="home-chapters">
@@ -45,7 +80,10 @@
       <div id="progress-text">0 of 10 complete</div>
       <div class="sidebar-overall"><div class="sidebar-overall-fill" id="overall-fill"></div></div>
       <div class="sidebar-footer-btns">
+        <button class="sidebar-util-btn" onclick="openDashboard()">Progress</button>
         <button class="sidebar-util-btn" onclick="openGlossary()">Glossary</button>
+        <button class="sidebar-util-btn" onclick="openTimeline()">Timeline</button>
+        <button class="sidebar-util-btn" onclick="openExam()">Exam</button>
         <button class="sidebar-util-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
       </div>
     </div>
@@ -55,9 +93,19 @@
       <button class="topbar-menu-btn" onclick="toggleSidebar()" aria-label="Open chapter list">&#9776;</button>
       <div class="breadcrumb">日本の歴史 › <span id="topbar-title">Chapter</span></div>
       <div class="topbar-nav">
+        <button class="topbar-btn" onclick="openSearch()" title="Search in chapter (Ctrl+F)" aria-label="Search in chapter">Search</button>
         <button class="topbar-btn" id="btn-prev" onclick="prevChapter()">← Prev</button>
         <button class="topbar-btn" id="btn-next" onclick="nextChapter()">Next →</button>
       </div>
+    </div>
+    <!-- In-chapter search bar -->
+    <div class="search-bar" id="search-bar" role="search">
+      <input type="text" id="search-input" class="search-input" placeholder="Search in chapter…"
+             oninput="doSearch()" onkeydown="handleSearchKey(event)" autocomplete="off" spellcheck="false">
+      <span class="search-counter" id="search-counter" aria-live="polite"></span>
+      <button class="search-nav-btn" onclick="searchPrev()" aria-label="Previous match" title="Previous (Shift+Enter)">↑</button>
+      <button class="search-nav-btn" onclick="searchNext()" aria-label="Next match" title="Next (Enter)">↓</button>
+      <button class="search-close-btn" onclick="closeSearch()" aria-label="Close search">×</button>
     </div>
     <div id="chapter-render"></div>
   </main>
@@ -82,6 +130,105 @@
     </div>
     <div id="glossary-results"></div>
   </div>
+</div>
+
+<!-- DASHBOARD PAGE -->
+<div class="page" id="dashboard">
+  <div class="reader-topbar">
+    <div class="breadcrumb">日本の歴史 › <span>Progress Dashboard</span></div>
+    <div class="topbar-nav">
+      <button class="topbar-btn" onclick="goHome()">← Home</button>
+      <button class="topbar-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
+    </div>
+  </div>
+  <div id="dashboard-content"></div>
+</div>
+
+<!-- EXAM PAGE -->
+<div class="page" id="exam">
+  <div class="reader-topbar">
+    <div class="breadcrumb">日本の歴史 › <span>Mock Exam</span></div>
+    <div class="topbar-nav">
+      <button class="topbar-btn" onclick="goHome()">← Home</button>
+      <button class="topbar-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
+    </div>
+  </div>
+  <div class="exam-wrap">
+    <!-- Setup -->
+    <div class="exam-screen active" id="exam-setup">
+      <div class="exam-eyebrow">Examination Preparation</div>
+      <h1 class="exam-title">Mock Exam — <em>All Eras</em></h1>
+      <p class="exam-sub">Randomly sampled questions drawn from all ten chapters</p>
+      <div class="setup-block">
+        <div class="setup-block-label">Number of questions</div>
+        <div class="q-count-row">
+          <button class="q-count-btn sel" data-n="10" onclick="examSelectCount(this)">10</button>
+          <button class="q-count-btn" data-n="20" onclick="examSelectCount(this)">20</button>
+          <button class="q-count-btn" data-n="30" onclick="examSelectCount(this)">30</button>
+          <button class="q-count-btn" data-n="all" onclick="examSelectCount(this)">All</button>
+        </div>
+      </div>
+      <div class="setup-block">
+        <div class="setup-block-label">Chapters to include</div>
+        <div class="chapter-filter-grid" id="exam-chapter-filter"></div>
+        <div style="display:flex;gap:0.5rem;margin-bottom:0.5rem">
+          <button class="q-count-btn" onclick="examSelectAllChapters(true)">Select all</button>
+          <button class="q-count-btn" onclick="examSelectAllChapters(false)">Deselect all</button>
+        </div>
+        <p class="filter-summary" id="exam-filter-summary"></p>
+      </div>
+      <div class="setup-actions">
+        <button class="btn primary" onclick="startExam()">Begin Exam →</button>
+        <button class="btn" onclick="goHome()">← Back</button>
+      </div>
+    </div>
+    <!-- Quiz -->
+    <div class="exam-screen" id="exam-quiz">
+      <div class="exam-topbar-inner">
+        <span class="exam-q-num" id="exam-q-num"></span>
+        <div class="exam-prog-track"><div class="exam-prog-fill" id="exam-prog-fill"></div></div>
+        <span class="exam-score-live" id="exam-score-live"></span>
+      </div>
+      <div class="exam-ch-badge" id="exam-ch-badge"></div>
+      <p class="exam-q-text" id="exam-q-text"></p>
+      <div class="exam-opts" id="exam-opts" role="group" aria-label="Answer options"></div>
+      <div class="quiz-explanation" id="exam-explanation" role="status" aria-live="polite"></div>
+      <div class="exam-nav">
+        <button class="btn primary" id="exam-next-btn" onclick="nextExamQ()" style="display:none">Next →</button>
+      </div>
+    </div>
+    <!-- Results -->
+    <div class="exam-screen" id="exam-results">
+      <div class="exam-results-header">
+        <div class="exam-eyebrow">Exam Complete</div>
+        <div class="exam-score-big" id="exam-score-big"></div>
+        <div class="exam-score-pct" id="exam-score-pct"></div>
+        <p class="results-msg" id="exam-results-msg"></p>
+      </div>
+      <div class="breakdown-label">Score by chapter</div>
+      <div id="exam-breakdown-rows"></div>
+      <div class="missed-section" id="exam-missed-section">
+        <div class="breakdown-label">Missed questions</div>
+        <div id="exam-missed-items"></div>
+      </div>
+      <div class="results-btns">
+        <button class="btn" onclick="goExamSetup()">New Exam</button>
+        <button class="btn primary" onclick="goHome()">← Home</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TIMELINE PAGE -->
+<div class="page" id="timeline">
+  <div class="reader-topbar">
+    <div class="breadcrumb">日本の歴史 › <span>Chronological Timeline</span></div>
+    <div class="topbar-nav">
+      <button class="topbar-btn" onclick="goHome()">← Home</button>
+      <button class="topbar-btn dark-toggle" onclick="toggleDarkMode()">Dark</button>
+    </div>
+  </div>
+  <div id="timeline-content"></div>
 </div>
 
 <script src="engine.js"></script>
