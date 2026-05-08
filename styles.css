@@ -198,8 +198,9 @@ body::before{content:'';position:fixed;inset:0;background-image:repeating-linear
 .util-btn:hover{background:var(--aged);color:var(--ink);}
 
 /* ── Sidebar footer utility buttons ── */
-.sidebar-footer-btns{display:flex;gap:0.5rem;margin-top:0.75rem;}
-.sidebar-util-btn{font-family:var(--mono);font-size:0.58rem;letter-spacing:0.08em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--border2);border-radius:3px;background:transparent;color:var(--light);cursor:pointer;transition:all 0.15s;flex:1;text-align:center;}
+.sidebar-footer-btns{display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-top:0.75rem;}
+.sidebar-util-btn{font-family:var(--mono);font-size:0.58rem;letter-spacing:0.08em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--border2);border-radius:3px;background:transparent;color:var(--light);cursor:pointer;transition:all 0.15s;text-align:center;}
+.sidebar-util-btn:last-child:nth-child(odd){grid-column:1/-1;}
 .sidebar-util-btn:hover{background:var(--aged2);color:var(--ink);}
 
 /* ── Dark mode ── */
